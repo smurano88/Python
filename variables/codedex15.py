@@ -86,10 +86,10 @@ elif(slytherin > ravenclaw and slytherin > gryffindor and slytherin > hufflepuff
 elif(hufflepuff > ravenclaw and hufflepuff > gryffindor and hufflepuff > slytherin):
     print("🐍 Hufflepuff!")
 else:
-    print("\nRESULTADO:\n\n")
-    print("Múltiples casas.\n")
+    print("\nRESULTADO:\n")
+    print("---VARIAS CASAS---\n")
     print("-----------------------")
-    print("Desglosado\n")
+    print("Desglosado:\n")
     print("🦁 Gryffindor = ",gryffindor)
     print("🦅 Ravenclaw = ",ravenclaw)
     print("🦡 Slytherin = ",slytherin)
