@@ -10,7 +10,7 @@ print('===============')
 print('The Sorting Hat')
 print('===============')
 
-# ~~~~~~~~~~~~~~~ Pregunta 1 ~~~~~~~~~~~~~~~
+# ============== Pregunta 1 ==============
 
 print('P1) ¿Prefieres el amanecer o el anochecer?')
 
@@ -28,7 +28,7 @@ elif respuesta == 2:
 else:
   print('Respuesta Incorrecta.')
 
-# ~~~~~~~~~~~~~~~ Pregunta 2 ~~~~~~~~~~~~~~~
+# ============== Pregunta 2 ==============
 
 print("\nP2) Cuando muera, quiero que la gente me recuerde como:")
 
@@ -50,7 +50,7 @@ elif respuesta == 4:
 else:
   print('Respuesta incorrecta.')
 
-# ~~~~~~~~~~~~~~~ Pregunta 3 ~~~~~~~~~~~~~~~
+# ============== Pregunta 3 ==============
 
 print('\nP3) ¿Qué instrumento prefieres escuchar?')
 
@@ -86,12 +86,14 @@ elif(slytherin > ravenclaw and slytherin > gryffindor and slytherin > hufflepuff
 elif(hufflepuff > ravenclaw and hufflepuff > gryffindor and hufflepuff > slytherin):
     print("🐍 Hufflepuff!")
 else:
-    print("\nRESULTADO:\n")
-    print("---VARIAS CASAS---\n")
-    print("-----------------------")
+    print("\n===========================")
+    print("        RESULTADO:")
+    print("===========================\n")
+    print("*****  VARIAS CASAS ******\n")
+    print("--------------------------")
     print("Desglosado:\n")
     print("🦁 Gryffindor = ",gryffindor)
     print("🦅 Ravenclaw = ",ravenclaw)
     print("🦡 Slytherin = ",slytherin)
     print("🐍 Hufflepuff = ",hufflepuff)
-    print("-----------------------")
+    print("--------------------------")
