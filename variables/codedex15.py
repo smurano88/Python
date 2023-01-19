@@ -72,10 +72,10 @@ elif respuesta == 4:
 else:
   print('Respuesta incorrecta.')
   
-print(gryffindor)
-print(ravenclaw)
-print(hufflepuff)
-print(slytherin)
+#print(gryffindor)
+#print(ravenclaw)
+#print(hufflepuff)
+#print(slytherin)
 
 if(gryffindor > ravenclaw and gryffindor > slytherin and gryffindor > hufflepuff):
     print("🦁 Gryffindor!")
@@ -86,4 +86,12 @@ elif(slytherin > ravenclaw and slytherin > gryffindor and slytherin > hufflepuff
 elif(hufflepuff > ravenclaw and hufflepuff > gryffindor and hufflepuff > slytherin):
     print("🐍 Hufflepuff!")
 else:
-    print("Múltiples casas.")
+    print("\nRESULTADO:\n\n")
+    print("Múltiples casas.\n")
+    print("-----------------------")
+    print("Desglosado\n")
+    print("🦁 Gryffindor = ",gryffindor)
+    print("🦅 Ravenclaw = ",ravenclaw)
+    print("🦡 Slytherin = ",slytherin)
+    print("🐍 Hufflepuff = ",hufflepuff)
+    print("-----------------------")
