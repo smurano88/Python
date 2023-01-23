@@ -81,7 +81,10 @@ print("\n===========================")
 print("        RESULTADO:")
 print("===========================\n")
 
+<<<<<<< HEAD
 #Si gryffindor es la mayor
+=======
+>>>>>>> a4fbf166522b853838d078ee8cc440d3996cc21f
 if(gryffindor > ravenclaw and gryffindor > slytherin and gryffindor > hufflepuff):
     print("🦁 Gryffindor\n")
 #sino si ravenclaw es la mayor
@@ -94,7 +97,11 @@ elif(slytherin > ravenclaw and slytherin > gryffindor and slytherin > hufflepuff
 elif(hufflepuff > ravenclaw and hufflepuff > gryffindor and hufflepuff > slytherin):
     print("🐍 Hufflepuff")
 else:
+<<<<<<< HEAD
 #Se han producido empates
+=======
+
+>>>>>>> a4fbf166522b853838d078ee8cc440d3996cc21f
     print("*****  VARIAS CASAS ******\n")
     print("---------------------------")
     print("Desglosado:\n")
@@ -103,4 +110,7 @@ else:
     print("🦡 Slytherin = ",slytherin)
     print("🐍 Hufflepuff = ",hufflepuff)
     print("---------------------------")
+<<<<<<< HEAD
 
+=======
+>>>>>>> a4fbf166522b853838d078ee8cc440d3996cc21f
