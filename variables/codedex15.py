@@ -77,23 +77,30 @@ else:
 #print(hufflepuff)
 #print(slytherin)
 
+print("\n===========================")
+print("        RESULTADO:")
+print("===========================\n")
+
+#Si gryffindor es la mayor
 if(gryffindor > ravenclaw and gryffindor > slytherin and gryffindor > hufflepuff):
-    print("🦁 Gryffindor!")
+    print("🦁 Gryffindor\n")
+#sino si ravenclaw es la mayor
 elif(ravenclaw > gryffindor and ravenclaw > slytherin and ravenclaw > hufflepuff):
-    print("🦅 Ravenclaw!")
+    print("🦅 Ravenclaw\n")
+#sino si slytherin es la mayor
 elif(slytherin > ravenclaw and slytherin > gryffindor and slytherin > hufflepuff):
-    print("🦡 Slytherin!")
+    print("🦡 Slytherin\n")
+#sino si hufflepuff es la mayor
 elif(hufflepuff > ravenclaw and hufflepuff > gryffindor and hufflepuff > slytherin):
-    print("🐍 Hufflepuff!")
+    print("🐍 Hufflepuff")
 else:
-    print("\n===========================")
-    print("        RESULTADO:")
-    print("===========================\n")
+#Se han producido empates
     print("*****  VARIAS CASAS ******\n")
-    print("--------------------------")
+    print("---------------------------")
     print("Desglosado:\n")
     print("🦁 Gryffindor = ",gryffindor)
     print("🦅 Ravenclaw = ",ravenclaw)
     print("🦡 Slytherin = ",slytherin)
     print("🐍 Hufflepuff = ",hufflepuff)
-    print("--------------------------")
+    print("---------------------------")
+
