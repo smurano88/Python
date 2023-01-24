@@ -110,7 +110,3 @@ else:
     print("🦡 Slytherin = ",slytherin)
     print("🐍 Hufflepuff = ",hufflepuff)
     print("---------------------------")
-<<<<<<< HEAD
-
-=======
->>>>>>> a4fbf166522b853838d078ee8cc440d3996cc21f
